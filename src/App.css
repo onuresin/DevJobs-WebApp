@@ -14,7 +14,15 @@
   --Gray: #9DAEC2;
   --DarkGray: #6E8098;
 }
-body {font-family: 'Kumbh Sans', sans-serif;}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--White);
+  transition: background-color 0.3s ease;
+}
+body.dark-theme {
+  background-color: var(--Midnight);
+  transition: background-color 0.3s ease;
+}
 .container {
   width: 1440px;
   margin: 0 auto;
