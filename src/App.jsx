@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import Filter from './Filter';
+
 // () []
 export default function App() {
   const [darkTheme, setDarkTheme] = useState(false);
@@ -24,8 +25,8 @@ export default function App() {
             }
           </div>
       </div>
-      <Filter/>
-      <Joblist jobs={filteredJobs} />
+      <Filter />
+      
       </div>
   );
 }
