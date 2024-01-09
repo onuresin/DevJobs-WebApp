@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter,RouterProvider,} from "react-router-dom";
-import JobDetails from './JobDetail.jsx';
+import JobDetail from './JobDetail.jsx';
 
 
 //[] ()
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path:"/jobdetail:position",
-    element:<JobDetails/>
+    path:"/jobdetail/:position",
+    element:<JobDetail/>
   }
   ])
 ReactDOM.createRoot(document.getElementById('root')).render(
