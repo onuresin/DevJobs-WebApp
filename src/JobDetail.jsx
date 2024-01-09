@@ -13,15 +13,15 @@ export default function JobDetail() {
             <Header/>
             <div className="details-container">
                 <div className="details-top">
-                    <img src={job.logo}/>
-                    <span className="mid-section">
-                        <h3>{job.company}</h3>
-                        <h5>{job.company}.com</h5>
-                    </span>
-                    <div className="details-top-end">
-                        <button>
-                            <Link to={job.website}>Şirket Sayfası</Link>
-                        </button>
+                    <img src={job.logo}  style={{ background: job.logoBackground }}/>
+                    <div className="mid-section">
+                        <div className="mid-text">
+                            <h3>{job.company}</h3>
+                            <h5>{job.company}.com</h5>
+                        </div>
+                            <button className="details-button">
+                                <Link to={job.website}>Şirket Sayfası</Link>
+                            </button>
                     </div>
                 </div>
                 <div className="inner-details">

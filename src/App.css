@@ -187,5 +187,50 @@ body.dark-theme {
   & img {
     width: 140px;
   }
-
+}
+.mid-section {
+  display: flex;
+  gap: 295px;
+  align-items: center;
+  padding-block: 42px;
+}
+.mid-text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  & h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: #19202D;
+    white-space: nowrap; /* Metni kırpma */
+    overflow: hidden; /* Taşan kısmı gizleme */
+    text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile gösterme */
+  }
+  & h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--DarkGray);
+    white-space: nowrap; /* Metni kırpma */
+    overflow: hidden; /* Taşan kısmı gizleme */
+    text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile gösterme */
+   }
+}
+.details-button {
+  padding: 16px 21px;
+  border-radius: 5px;
+  background-color: var(--LightGrey);
+  border: 0;
+  & a {
+    text-decoration: none;
+    color: #5964e0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal; 
+    cursor: url('public/images/pointer.svg'), auto;
+    white-space: nowrap; /* Metni kırpma */
+    overflow: hidden; /* Taşan kısmı gizleme */
+    text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile gösterme */
+  }
 }
