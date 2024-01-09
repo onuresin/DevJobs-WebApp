@@ -19,39 +19,41 @@ export default function JobDetail() {
                         <h5>{job.company}.com</h5>
                     </span>
                     <div className="details-top-end">
-                    <button>
-                        <Link to={job.website}>Şirket Sayfası</Link>
-                    </button>
-                </div>
-                </div>
-                <div className="details-mid">
-                    <div className="about-job">
-                        <h6>{job.postedAt} . {job.contract}</h6>
-                        <h1>{job.position}</h1>
-                        <span>{job.location}</span>
+                        <button>
+                            <Link to={job.website}>Şirket Sayfası</Link>
+                        </button>
                     </div>
-                    <button className='btn'>Apply Now</button>
                 </div>
-                
-                <p className='job-desc'>{job.description}</p>
+                <div className="inner-details">
+                    <div className="details-mid">
+                        <div className="about-job">
+                            <h6>{job.postedAt} . {job.contract}</h6>
+                            <h1>{job.position}</h1>
+                            <span>{job.location}</span>
+                        </div>
+                        <button className='btn'>Apply Now</button>
+                    </div>
+                    
+                    <p className='job-desc'>{job.description}</p>
 
-                <div className="requiretments">
-                    <h2>Gereksinimler</h2>
-                    <p>{job.requirements && job.requirements.content}</p>
-                    <ul className="requiretments-lists">
-                    {job.requirements && job.requirements.items && job.requirements.items.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="whatyoudo">
-                        <h2>Ne yapacaksınız, sizden beklentimiz</h2>
-                        <p>{job.role && job.role.content}</p>
-                        <ol className='whatyoudo-lists'>
-                        {job.role && job.role.items && job.role.items.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ol>
+                    <div className="requiretments">
+                        <h2>Gereksinimler</h2>
+                        <p>{job.requirements && job.requirements.content}</p>
+                        <ul className="requiretments-lists">
+                        {job.requirements && job.requirements.items && job.requirements.items.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="whatyoudo">
+                            <h2>Ne yapacaksınız, sizden beklentimiz</h2>
+                            <p>{job.role && job.role.content}</p>
+                            <ol className='whatyoudo-lists'>
+                            {job.role && job.role.items && job.role.items.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ol>
+                    </div>
                 </div>
             </div>
         </>
