@@ -89,7 +89,7 @@ export default function Filter() {
               checked={fullTimeFilter}
               onChange={() => setFullTimeFilter(!fullTimeFilter)}
             />
-            <h4>Full Time Only</h4>
+            <h4>Sadece Tam Zamanlı</h4>
           </label>
         </div>
         <button onClick={handleSearch}>İŞ ARA</button>
@@ -119,7 +119,7 @@ export default function Filter() {
         {visibleJobs < filteredJobs.length && (
           <div className="loadMore">
             <button className="btn" onClick={handleLoadMore}>
-              Load More
+              Daha Fazla Yükle
             </button>
           </div>
         )}

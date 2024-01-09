@@ -8,16 +8,12 @@ export default function JobDetail() {
     const { position } = useParams();
     const job = jobsData.find(j => j.position === position);
 
-    if (!job) {
-        return <div>Job not found</div>;
-    }
-
     return (
         <>
             <Header/>
             <div className="details-container">
                 <div className="details-top">
-                    <img src={job.logo} alt="logo" />
+                    <img src={job.logo}/>
                     <span className="mid-section">
                         <h3>{job.company}</h3>
                         <h5>{job.company}.com</h5>
@@ -34,8 +30,29 @@ export default function JobDetail() {
                         <h1>{job.position}</h1>
                         <span>{job.location}</span>
                     </div>
+                    <button className='btn'>Apply Now</button>
                 </div>
                 
+                <p className='job-desc'>{job.description}</p>
+
+                <div className="requiretments">
+                    <h2>Gereksinimler</h2>
+                    <p>{job.requirements && job.requirements.content}</p>
+                    <ul className="requiretments-lists">
+                    {job.requirements && job.requirements.items && job.requirements.items.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="whatyoudo">
+                        <h2>Ne yapacaksınız, sizden beklentimiz</h2>
+                        <p>{job.role && job.role.content}</p>
+                        <ol className='whatyoudo-lists'>
+                        {job.role && job.role.items && job.role.items.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ol>
+                </div>
             </div>
         </>
     )
