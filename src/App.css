@@ -113,7 +113,6 @@ body.dark-theme {
   justify-content: space-between;
   background-image: url(/Public/images/header-bg.svg);
   background-repeat: no-repeat;
-  width: auto;
   height: 160px;
   padding-block: 44px 84px;
   padding-inline: 165px;
@@ -121,7 +120,7 @@ body.dark-theme {
 .theme-changer {
   cursor: url('/public/images/pointer.svg'), auto;
 }
-/* Filter Sectioin */
+/* Filter Section */
 .search-filter {
   display: flex;
   align-items: center;
@@ -475,4 +474,82 @@ body.dark-theme {
   font-style: italic;
   font-weight: 700;
   line-height: normal; 
+}
+/*RESPONSIVE TASARIM*/
+@media (374px <= width <=768px) {
+  :hover {
+    transform: none;
+  }
+  .container {
+    width: 768px;
+    margin: auto 0;
+  }
+  .navHeader {
+    background-image: url(/Public/images/tablet-bg.svg);
+    width: 768px;
+    padding-inline: 39px;
+
+  }
+  .loader-button {
+    width: 689px;
+  }
+  .search-filter {
+    width: 689px;
+  }
+  .bar-section {
+    width: 145px;
+    padding-inline: 28px;
+    & input {
+      width: 105px;
+    }
+  }
+  .local-section {
+    width: 168px;
+    padding-inline: 28px;
+    & input {
+      width: 135px;
+    }
+  }
+  .fulltime-section {
+    width: 108px;
+    padding-inline: 28px;
+    & label h4 {
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 10px;
+      font-weight: 700;
+    }
+  }
+  .btn {
+    font-size: 14px;
+    font-weight: 400;
+    & :hover {
+      transition: 0.3s;
+      transform: none;
+    }
+  }
+  .jobsSection {
+    width: 689px;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 11px;
+  }
+  .job-item {
+    width: 339px;
+  }
+  .job-item-innerbox {
+    width: 268px;
+    padding: 49px 21px 32px 32px;
+  }
+  .btn:hover {
+    transform: none;
+  }
+  .error-message {
+    width: 650px;
+  }
+  .details-bottom {
+    width: 767px;
+  }
+  .inner-details, .details-top, .details-container {
+    width: 689px;
+  }
 }

@@ -101,7 +101,7 @@ export default function Filter() {
               checked={fullTimeFilter}
               onChange={() => setFullTimeFilter(!fullTimeFilter)}
             />
-            <h4>Sadece Tam Zamanlı</h4>
+            <h4>Tam Zamanlı</h4>
           </label>
         </div>
         <button className="btn" onClick={handleSearch}>
