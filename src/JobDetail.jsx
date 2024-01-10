@@ -28,14 +28,18 @@ export default function JobDetail() {
                     <div className="inner-details">
                         <div className="details-mid">
                             <div className="about-job">
+                               <div className="about-job-left">
                                 <h6>{job.postedAt} . {job.contract}</h6>
-                                <h1>{job.position}</h1>
-                                <span>{job.location}</span>
+                                    <h1>{job.position}</h1>
+                                    <span>{job.location}</span>
+                               </div>
+                               <div className="about-job-right">
+                               <    button className='btn apply'>Başvur</button>
+                               </div>
                             </div>
-                            <button className='btn'>Apply Now</button>
                         </div>
                         
-                        <p className='job-desc'>{job.description}</p>
+                        <p className='description'>{job.description}</p>
 
                         <div className="requiretments">
                             <h2>Gereksinimler</h2>

@@ -35,8 +35,13 @@ body.dark-theme {
   & .job-item {
     background-color: var(--VeryDarkBlue);
   }
+  .job-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px var(--DarkGray);
+  }
   & .job-content h2 a {
     color: var(--LightGrey);
+    cursor: url('/public/images/pointer.svg'), auto;
   }
 }
 .container {
@@ -54,7 +59,7 @@ body.dark-theme {
   padding-inline: 165px;
 }
 .theme-changer {
-  cursor: url('public/images/pointer.svg'), auto;
+  cursor: url('/public/images/pointer.svg'), auto;
 }
 /* Filter Sectioin */
 .search-filter {
@@ -97,13 +102,19 @@ body.dark-theme {
   font-style: normal;
   font-weight: 700;
   line-height: normal; 
+  transition: all .1s linear;
+  box-shadow: 0 5px 0 var(--Midnight);
 }
 .btn:hover {
   background: var(--LightViolet); 
-  cursor: url('public/images/pointer.svg'), auto;
+  cursor: url('/public/images/pointer.svg'), auto;
 }
-.fulltime-section label:hover, .bar-section:hover, .local-section:hover, .job-item-innerbox:hover{
-  cursor: url('public/images/pointer.svg'), auto;
+.btn:active {
+  box-shadow: 0 2px 0 var(--Midnight);
+  transform: translateY(3px);
+}
+.fulltime-section label:hover, .bar-section:hover, .local-section:hover, .job-item-innerbox:hover {
+  cursor: url('/public/images/pointer.svg'), auto;
 }
 
 /* JOB SECTION*/
@@ -119,11 +130,19 @@ body.dark-theme {
   background-color: var(--White);
   border-radius: 6px;
   width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
   & img {
     margin-top: -25px;
     margin-left: 32px;
   }
-
+}
+.job-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px var(--Midnight);
+}
+.job-item:active {
+  box-shadow: 0 2px 0 var(--Midnight);
+  transform: translateY(3px);
 }
 .job-item-innerbox {
   padding: 24px 32px 32px 32px;
@@ -186,13 +205,15 @@ body.dark-theme {
   gap: 40px;
   & img {
     width: 140px;
+    height: 140px;
   }
 }
 .mid-section {
+  width: 550px;
   display: flex;
-  gap: 295px;
+  justify-content: space-between;
   align-items: center;
-  padding-block: 42px;
+  
 }
 .mid-text {
   display: flex;
@@ -222,15 +243,113 @@ body.dark-theme {
   border-radius: 5px;
   background-color: var(--LightGrey);
   border: 0;
+  margin-right: 43px;
   & a {
     text-decoration: none;
     color: #5964e0;
     font-size: 16px;
     font-weight: 700;
     line-height: normal; 
-    cursor: url('public/images/pointer.svg'), auto;
+    cursor: url('/public/images/pointer.svg'), auto;
     white-space: nowrap; /* Metni kırpma */
     overflow: hidden; /* Taşan kısmı gizleme */
     text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile gösterme */
   }
 }
+.inner-details {
+  padding: 48px 43px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.about-job {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  & .about-job-left {
+    & h6 {
+      color: var(--DarkGray);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal; 
+    }
+    & h1 {
+      margin-top: 11px;
+      color: var(--VeryDarkBlue);
+      font-size: 28px;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 14px;
+    }
+    & span {
+      color: var(--Violet);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: normal; 
+    } 
+  }
+  .apply:hover {
+    cursor: url('/public/images/pointer.svg'), auto;
+  }
+}
+.description {
+  color: var(--DarkGray);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */ 
+}
+.requiretments {
+  & h2 {
+    color: var(--VeryDarkBlue);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal; 
+  }
+  & p {
+    color: var(--DarkGray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 28px;
+  }
+}
+.requiretments-lists {
+  margin-top: 24px;
+}
+.requiretments-lists li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */ 
+  color: var(--DarkGray);
+}
+.requiretments-lists li::marker {
+  color: var(--Violet);
+}
+.whatyoudo {
+  & h2 {
+    color: var(--VeryDarkBlue);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal; 
+  }
+  & p {
+    margin-top: 28px;
+    color: var(--DarkGray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+  }
+}
+.whatyoudo-lists {
+  color: var(--DarkGray);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 24px;
+}
+.whatyoudo-lists li::marker {
+  color: var(--Violet);
+}
+
+/*STICKY SECTION*/
