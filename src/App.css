@@ -476,7 +476,10 @@ body.dark-theme {
   line-height: normal; 
 }
 /*RESPONSIVE TASARIM*/
-@media (374px <= width <=768px) {
+
+/*TABLET*/
+
+@media (376px <= width <=768px) {
   :hover {
     transform: none;
   }
@@ -552,4 +555,10 @@ body.dark-theme {
   .inner-details, .details-top, .details-container {
     width: 689px;
   }
+}
+/*MOBİL*/
+@media (max-width: 375px)  {
+  .container {
+    width: 375px;
+  }  
 }
