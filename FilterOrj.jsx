@@ -8,7 +8,6 @@ export default function Filter() {
   const [locationFilter, setLocationFilter] = useState('');
   const [fullTimeFilter, setFullTimeFilter] = useState(false);
   const [visibleJobs, setVisibleJobs] = useState(3);
-  const [error, setError] = useState(null);
 
   const handleLoadMore = () => {
     setVisibleJobs(visibleJobs + 3);
@@ -19,6 +18,7 @@ export default function Filter() {
       .then((response) => response.json())
       .then((data) => {
         setAllJobs(data);
+        setFilteredJobs(data);
       });
   }, []);
 
@@ -42,24 +42,14 @@ export default function Filter() {
     }
 
     setFilteredJobs(filteredData);
-
-    // Filtre sonucu iş bulunamazsa hata mesajını ayarla
-    if (filteredData.length === 0) {
-      setError('Aranan kriterlere uygun iş bulunamadı.');
-    } else {
-      setError(null);
-    }
   };
+
+  useEffect(() => {
+    handleFilter();
+  }, [searchTerm, locationFilter, fullTimeFilter]);
 
   const handleSearch = (e) => {
     e.preventDefault();
-
-    // Boş bırakılamaz alanları kontrol et
-    if (!searchTerm && !locationFilter && !fullTimeFilter) {
-      setError('Filtreleme yapmadan arama yapmayınız!');
-      return;
-    }
-
     handleFilter();
   };
 
@@ -78,12 +68,12 @@ export default function Filter() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </form>
-          <img src="/Public/images/stick.svg" alt="stick" />
+          <img src="/Public/images/stick.svg"/>
         </div>
         <div className="local-section">
-          <div className="vertical"></div>
+          <div className='vertical'></div>
           <form>
-            <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
+              <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
             <input
               type="text"
               placeholder="Lokasyona göre filtrele..."
@@ -91,10 +81,10 @@ export default function Filter() {
               onChange={(e) => setLocationFilter(e.target.value)}
             />
           </form>
-          <img src="/Public/images/stick.svg" alt="stick" />
+          <img src="/Public/images/stick.svg"/>
         </div>
         <div className="fulltime-section">
-          <div className="vertical"></div>
+        <div className='vertical'></div>
           <label>
             <input
               type="checkbox"
@@ -104,44 +94,38 @@ export default function Filter() {
             <h4>Sadece Tam Zamanlı</h4>
           </label>
         </div>
-        <button className="btn" onClick={handleSearch}>
-          İŞ ARA
-        </button>
+        <button className='btn' onClick={handleSearch}>İŞ ARA</button>
       </div>
       <div className="jobsSection">
-        {error ? (
-          <div className="error-message">{error}</div>
-        ) : (
-          filteredJobs.slice(0, visibleJobs).map((job) => (
-            <div className="job-item" key={job.id}>
-              <img src={job.logo} alt="" />
-              <div className="job-item-innerbox">
-                <div className="job-content">
-                  <h6>
-                    {job.postedAt} . {job.contract}
-                  </h6>
-                  <h2>
-                    <Link to={`/jobDetail/${job.position}`}>{job.position}</Link>
-                  </h2>
-                  <p>{job.company}</p>
-                </div>
+        {filteredJobs.slice(0, visibleJobs).map((job) => (
+          <div className="job-item" key={job.id}>
+            <img src={job.logo} alt="" />
+            <div className="job-item-innerbox">
+              <div className="job-content">
+                <h6>
+                  {job.postedAt} . {job.contract}
+                </h6>
+                <h2>
+                  <Link to={`/jobDetail/${job.position}`}>{job.position}</Link>
+                </h2>
+                <p>{job.company}</p>
+              </div>
 
-                <div className="location">
-                  <p>
-                    <span>{job.location}</span>
-                  </p>
-                </div>
+              <div className="location">
+                <p>
+                  <span>{job.location}</span>
+                </p>
               </div>
             </div>
-          ))
-        )}
+          </div>
+        ))}
       </div>
       <div className="loader-button">
         {visibleJobs < filteredJobs.length && (
-          <button className="btn" onClick={handleLoadMore}>
-            Daha Fazla Yükle
-          </button>
-        )}
+              <button className="btn" onClick={handleLoadMore}>
+                Daha Fazla Yükle
+              </button>
+          )}
       </div>
     </>
   );

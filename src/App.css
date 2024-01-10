@@ -273,7 +273,7 @@ body.dark-theme {
 }
 /*DETAILS CONTAINER*/
 .details-container {
-  height: 1150px;
+  height: 1450px;
   width: 730px;
   margin: 0 auto;
   display: flex;
@@ -465,4 +465,14 @@ body.dark-theme {
       line-height: normal; 
     }
   }
+}
+/*ERROR MESSAGE*/
+.error-message {
+  width: 1140px;
+  text-align: center;
+  color: var(--Violet);
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal; 
 }

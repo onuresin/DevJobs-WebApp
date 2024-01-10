@@ -206,10 +206,10 @@
     "apply": "https://example.com/pomodoro/apply",
     "description": "Ekibimize katılacak düşünceli, çok yönlü iOS mühendisi arıyoruz. Uygulamanın ve altyapının temelini oluşturmaya yardımcı olacak birini arıyoruz. Her gün milyonlarca insanın üretkenliğini artırmak için kullandığı bir uygulamanın inşasında yer almakla ilgileniyorsanız, bu mükemmel bir fırsat. Mobil mühendislik uygulamamızda önemli bir rol oynayacak, yeni özellikler uygulayacak, performansı artıracak ve güzel kullanıcı arayüzleri oluşturacaksınız.",
     "requirements": {
-      "content": "Pomodoro'yu piyasadaki en iyi mobil deneyimlerden biri haline getirmek isteyen deneyimli bir mobil mühendissiniz. Müşteri odaklı ürün geliştirmede başarılı olan, uygulama mimarisi ve tasarımı üzerinde çalışma ve sorunsuz, keyifli deneyimler yaratma tutkusuna sahip birisiniz. Kaliteyi çok önemsiyor, ortaklık ve işbirliğinden enerji alıyor ve çevrenizdekilerin mükemmelleşmesini sağlamak için çabalıyorsunuz.",
+      "content": "Pomodoro'yu piyasadaki en iyi mobil deneyimlerden biri haline getirmek isteyen deneyimli bir mobil mühendis arıyoruz. Müşteri odaklı ürün geliştirmede başarılı olan, uygulama mimarisi ve tasarımı üzerinde çalışma ve sorunsuz, keyifli deneyimler yaratma tutkusuna sahip biriyseniz, kaliteyi çok önemsiyor, ortaklık ve işbirliğinden enerji alıyor ve çevrenizdekilerin mükemmelleşmesini sağlamak için çabalıyorsanız ne duruyorsunuz.",
       "items": [
         "Objective-C ve/veya Swift'te güçlü programlama becerileri",
-        "iOS üzerinde mobil uygulama geliştirme deneyimi",
+        "IOS üzerinde mobil uygulama geliştirme deneyimi",
         "Ürün yönetimi, tasarım ve mühendislik dahil olmak üzere çeşitli ekiplerle yakın çalışma deneyimi",
         "Yaygın veri yapıları ve algoritmalar, profil oluşturma ve optimizasyon gibi temel CS kavramları hakkında bilgi"
       ]
