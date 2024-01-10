@@ -44,10 +44,6 @@ export default function Filter() {
     setFilteredJobs(filteredData);
   };
 
-  useEffect(() => {
-    handleFilter();
-  }, [searchTerm, locationFilter, fullTimeFilter]);
-
   const handleSearch = (e) => {
     e.preventDefault();
     handleFilter();
@@ -71,6 +67,7 @@ export default function Filter() {
           <img src="/Public/images/stick.svg"/>
         </div>
         <div className="local-section">
+          <div className='vertical'></div>
           <form>
               <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
             <input
@@ -83,6 +80,7 @@ export default function Filter() {
           <img src="/Public/images/stick.svg"/>
         </div>
         <div className="fulltime-section">
+        <div className='vertical'></div>
           <label>
             <input
               type="checkbox"

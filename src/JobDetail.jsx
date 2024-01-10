@@ -34,7 +34,7 @@ export default function JobDetail() {
                                     <span>{job.location}</span>
                                </div>
                                <div className="about-job-right">
-                               <    button className='btn apply'>Başvur</button>
+                                    <button className='btn apply'>Başvur</button>
                                </div>
                             </div>
                         </div>
@@ -60,6 +60,15 @@ export default function JobDetail() {
                             </ol>
                         </div>
                     </div>
+                </div>
+                <div className="details-bottom">
+                    <span className="details-left">
+                        <h4>{job.position}</h4>
+                        <h6>So Digital Inc.</h6>
+                    </span>
+                    <div className="about-job-right">
+                        <button className='btn apply'>Başvur</button>
+                    </div>                   
                 </div>
             </div>
         </>
