@@ -9,6 +9,8 @@ export default function Filter() {
   const [fullTimeFilter, setFullTimeFilter] = useState(false);
   const [visibleJobs, setVisibleJobs] = useState(3);
   const [error, setError] = useState(null);
+  const [modal, setModal] = useState(false);
+
 
   const handleLoadMore = () => {
     setVisibleJobs(visibleJobs + 3);
@@ -60,6 +62,14 @@ export default function Filter() {
 
     handleFilter();
   };
+  const toggleModal = () => {
+    setModal(!modal)
+}
+if(modal) {
+  document.body.classList.add('active-modal')
+} else {
+  document.body.classList.remove('active-modal')
+}
 
 
   return (
@@ -115,13 +125,44 @@ export default function Filter() {
           </form>
         </div>
         <div className="modal-right">
-          <button className='modal-btn'><img src="/Public/images/modal-path-light.svg"/></button>
+        
+          <button className='modal-btn' onClick={toggleModal}><img src="/Public/images/modal-path-light.svg"/></button>
           <button className="mobile-btn" onClick={handleSearch}>
             <img src="/Public/images/mobil-search-button.svg"/>
         </button>
         </div>
       </div>
-      
+      {/* MODAL BÖLÜM DİV */}
+      {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className='before-opened'></div>
+          <div className="modal-content">
+            <div className="content-top">
+              <form>
+                <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
+              <input
+                type="text"
+                placeholder="Lokasyona göre filtrele..."
+                value={locationFilter}
+                onChange={(e) => setLocationFilter(e.target.value)}
+              />
+            </form>
+            </div>
+            <div className='content-stick'></div>
+            <div className="content-bot">
+              <label>
+              <input
+                type="checkbox"
+                checked={fullTimeFilter}
+                onChange={() => setFullTimeFilter(!fullTimeFilter)}
+              />
+              <h4>Tam Zamanlı</h4>
+            </label>
+            </div>
+            <button className="modalBtn" onClick={toggleModal}>Kapat</button>
+          </div>
+        </div>
+      )}
       <div className="jobsSection">
         {error ? (
           <div className="error-message">{error}</div>
