@@ -43,7 +43,6 @@ export default function Filter() {
 
     setFilteredJobs(filteredData);
 
-    // Filtre sonucu iş bulunamazsa hata mesajını ayarla
     if (filteredData.length === 0) {
       setError('Aranan kriterlere uygun iş bulunamadı.');
     } else {
@@ -54,7 +53,6 @@ export default function Filter() {
   const handleSearch = (e) => {
     e.preventDefault();
 
-    // Boş bırakılamaz alanları kontrol et
     if (!searchTerm && !locationFilter && !fullTimeFilter) {
       setError('Filtreleme yapmadan arama yapmayınız!');
       return;
@@ -62,6 +60,7 @@ export default function Filter() {
 
     handleFilter();
   };
+
 
   return (
     <>
@@ -108,6 +107,21 @@ export default function Filter() {
           İŞ ARA
         </button>
       </div>
+      <div className="modal-section">
+        <div className="modal-left">
+          <form>
+            <input type="text" placeholder='Filtrele...' value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}/>
+          </form>
+        </div>
+        <div className="modal-right">
+          <button className='modal-btn'><img src="/Public/images/modal-path-light.svg"/></button>
+          <button className="mobile-btn" onClick={handleSearch}>
+            <img src="/Public/images/mobil-search-button.svg"/>
+        </button>
+        </div>
+      </div>
+      
       <div className="jobsSection">
         {error ? (
           <div className="error-message">{error}</div>
