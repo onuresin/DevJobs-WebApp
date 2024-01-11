@@ -119,7 +119,7 @@ body.dark-theme {
   .modal-section {
     background-color: var(--VeryDarkBlue);
   }
-  .mobile-btn {
+  .modal-btn, .mobile-btn {
     background-color: var(--VeryDarkBlue);
   }
   .modal-left {
@@ -631,7 +631,11 @@ body.active-modal {
     gap: 24px;
     & .modal-btn {
       border: 0;
+      
       background-color: var(--White);
+      & img {
+        width: 24px;
+      }
     }
     & .mobile-btn {
       border: 0;

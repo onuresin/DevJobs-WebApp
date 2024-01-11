@@ -125,8 +125,8 @@ if(modal) {
           </form>
         </div>
         <div className="modal-right">
-        
-          <button className='modal-btn' onClick={toggleModal}><img src="/Public/images/modal-path-light.svg"/></button>
+
+          <button className='modal-btn' onClick={toggleModal}><img src="/Public/images/modal-path.webp"/></button>
           <button className="mobile-btn" onClick={handleSearch}>
             <img src="/Public/images/mobil-search-button.svg"/>
         </button>
