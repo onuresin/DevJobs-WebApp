@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import deskTop from '../public/images/search-icon.svg'
+import GpsIcon from '../Public/images/gps-icon.svg'
+import Stick from '../Public/images/stick.svg'
+import mobilSearch from '../Public/images/mobil-search-button.svg'
+import modalPath from '../Public/images/modal-path.webp'
 
 export default function Filter() {
   const [allJobs, setAllJobs] = useState([]);
@@ -78,7 +83,7 @@ if(modal) {
         <div className="bar-section">
           <form>
             <label>
-              <img src="src/assets/images/search-icon.svg" alt="search-icon" />
+              <img src={deskTop} alt="search-icon" />
             </label>
             <input
               type="text"
@@ -87,12 +92,12 @@ if(modal) {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </form>
-          <img src="/Public/images/stick.svg" alt="stick" />
+          <img src={Stick} alt="stick" />
         </div>
         <div className="local-section">
           <div className="vertical"></div>
           <form>
-            <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
+            <img src={GpsIcon} alt="gps-icon" />
             <input
               type="text"
               placeholder="Lokasyona göre filtrele..."
@@ -100,7 +105,7 @@ if(modal) {
               onChange={(e) => setLocationFilter(e.target.value)}
             />
           </form>
-          <img src="/Public/images/stick.svg" alt="stick" />
+          <img src={Stick} alt="stick" />
         </div>
         <div className="fulltime-section">
           <div className="vertical"></div>
@@ -126,9 +131,9 @@ if(modal) {
         </div>
         <div className="modal-right">
 
-          <button className='modal-btn' onClick={toggleModal}><img src="/Public/images/modal-path.webp"/></button>
+          <button className='modal-btn' onClick={toggleModal}><img src={modalPath}/></button>
           <button className="mobile-btn" onClick={handleSearch}>
-            <img src="/Public/images/mobil-search-button.svg"/>
+            <img src={mobilSearch}/>
         </button>
         </div>
       </div>
@@ -139,7 +144,7 @@ if(modal) {
           <div className="modal-content">
             <div className="content-top">
               <form>
-                <img src="src/assets/images/gps-icon.svg" alt="gps-icon" />
+                <img src={GpsIcon} alt="gps-icon" />
               <input
                 type="text"
                 placeholder="Lokasyona göre filtrele..."
