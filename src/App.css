@@ -18,6 +18,7 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background-color: var(--LightGrey);
   transition: background-color 0.3s ease;
+  background-color: var(--LightGrey);
 }
 body.dark-theme {
   background-color: var(--Midnight);
@@ -136,19 +137,22 @@ body.active-modal {
   color: var(--DarkGray);
 }
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   flex-wrap: wrap;
 }
 .navHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-image: url(/Public/images/header-bg.svg);
   background-repeat: no-repeat;
   height: 160px;
   padding-block: 44px 84px;
   padding-inline: 165px;
-  width: auto;
+  width: 100%;
+  margin: 0 auto;
+
 }
 .theme-changer {
   cursor: url('/public/images/pointer.svg'), auto;
@@ -160,7 +164,7 @@ body.active-modal {
 .search-filter {
   display: flex;
   align-items: center;
-  width: 1110px;
+  width: 76%;
   height: 80px;
   margin: 0 auto;
   justify-content: space-around;
@@ -206,7 +210,6 @@ body.active-modal {
   border: 0;
   border-radius: 5px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal; 
   transition: all .1s linear;
@@ -236,7 +239,7 @@ body.active-modal {
 
 /* JOB SECTION*/
 .jobsSection {
-  width: 1110px;
+  width: 76%;
   margin: 0 auto;
   padding-top: 80px;
   display: grid;
@@ -308,8 +311,8 @@ body.active-modal {
 }
 /*DETAILS CONTAINER*/
 .details-container {
-  height: 1450px;
-  width: 730px;
+  height: 100vh;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -520,19 +523,19 @@ body.active-modal {
     transform: none;
   }
   .container {
-    width: 768px;
+    max-width: 768px;
     margin: auto 0;
   }
   .navHeader {
     background-image: url(/Public/images/tablet-bg.svg);
-    width: 768px;
+    width: 100%;
     padding-inline: 39px;
   }
   .loader-button {
-    width: 689px;
+    width: 90%;
   }
   .search-filter {
-    width: 689px;
+    width: 90%;
   }
   .bar-section {
     width: 145px;
@@ -733,7 +736,7 @@ body.active-modal {
     justify-content: center;
   }
   .modal-content {
-    width: 327px;
+    width: 87.2%;
     position: relative;
     border-radius: 6px;
     margin: 0 auto;
