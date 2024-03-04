@@ -518,7 +518,7 @@ body.active-modal {
 
 /*TABLET*/
 
-@media (376px <= width <=768px) {
+@media (401px <= width <= 768px) {
   :hover {
     transform: none;
   }
@@ -595,24 +595,25 @@ body.active-modal {
   }
 }
 /*MOBİL*/
-@media (max-width: 375px)  {
+@media (max-width: 400px)  {
   :hover {
     transform: none;
   }
   .container {
-    width: 375px;
+    width: 100%;
     margin: 0 auto;
   }  
   .navHeader {
     background-image: url(/Public/images/mobile-bg.svg);
-    width: 375px;
+    background-color: #5964e0;
+    width: 100%;
     padding-inline: 24px;
   }
   .search-filter {
     display: none;
   }
   .modal-section {
-    width: 327px;
+    width: 82%;
     padding: 16px 16px 17px 24px;
     margin: 0 auto;
     display: flex;
@@ -701,7 +702,7 @@ body.active-modal {
   }
   .details-container {
     gap: 24px;
-    height: 2500px;
+    height: 2600px;
   }
   .about-job {
     flex-direction: column;
@@ -715,7 +716,7 @@ body.active-modal {
     }
   }
   .details-bottom {
-    width: 375px;
+    width: 100%;
     & .details-left {
       display: none;
     }

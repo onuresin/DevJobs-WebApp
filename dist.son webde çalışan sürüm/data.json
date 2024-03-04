@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "company": "Scoot",
+    "logo": "logos/scoot.svg",
+    "logoBackground": "hsl(36, 87%, 49%)",
+    "position": "Senior Software Engineer",
+    "postedAt": "5s önce",
+    "contract": "Full Time",
+    "location": "Birleşik Krallık",
+    "website": "https://example.com/scoot",
+    "apply": "https://example.com/scoot/apply",
+    "description": "Scoot, küçük ama büyüyen mühendislik ekibimize katılmak üzere ulaşılabilir, yenilikçi ve kullanıcı öncelikli deneyimler oluşturma konusunda tutkulu bir 'Kıdemli Yazılım Mühendisi' arıyor. Scoot'un tüm uygulamalarında ön uç işlevselliği oluşturmak ve sürdürmekten, büyüyen bir yazılım mühendisleri ekibini teşvik etmekten ve kod tabanımızdaki en iyi yazılım modellerini ve uygulamalarını yönlendirmeye ve sürdürmeye yardımcı olmaktan sorumlu olacaksınız.",
+    "requirements": {
+      "content": "İdeal aday, teknoloji aracılığıyla zorlukları çözme konusunda tutkulu olmalı. Sıfırdan kavram kanıtı oluşturma ve bu POC'leri(kavram kanıtı oluşturmada) üretime ve ölçeğe taşıma konusunda çok bilgili olmalıdır. Doğru aday, hızlı bir şekilde inşa etmek ve yinelemek için mühendislik deneyimine sahip olmalı, teknik strateji ve yol haritasını belirlemek için ürün ve tasarımla birlikte çalışmakta rahat olacaktır. ",
+      "items": [
+        "Tercihen bir SaaS ürünü geliştiren bir yazılım mühendisliği rolünde 5+ yıllık sektör deneyimi. Çalışmalarınızın ürün ve/veya ekip üzerinde önemli bir etkisi olduğunu gösterebilirsiniz.",
+        "Hem sıfırdan inşa edilmiş hem de AWS ilkelleri üzerinde ölçeklenebilir dağıtılmış sistemler konusunda deneyim.",
+        "Son derece veri odaklı.",
+        "Karmaşık sistemlerde hata ayıklama becerisi."
+      ]
+    },
+    "role": {
+      "content": "İlk işe alımlarımızdan biri olarak aramıza katılacak bir Kıdemli Yazılım Mühendisi arıyoruz. MVP'miz üzerinde yinelemeler yaparken, vizyonu yönlendirme ve dijital deneyimimizin arkasındaki yapıyı sahiplenme fırsatına sahip olacaksınız. Deneyimli bir teknik danışman, bir Ürün Müdürü ve birlikte çalışabileceğiniz harici bir ekipten destek alacaksınız.",
+      "items": [
+        "Bu rol, erken aşamadan heyecan duyan biri içindir - akıllı, verimli oluşturma ve test etme yoluyla platform vizyonunu gerçeğe dönüştürmekten sorumlu olacaksınız.",
+        "Ürün yol haritasını mühendislik gereksinimlerine dönüştürmek ve mühendislik yol haritasına sahip olmak",
+        "Mümkün olduğunca verimli bir şekilde test etmek ve öğrenmek için sınırlı kaynaklarla çalışın ve zaman içinde daha ölçeklenebilir bir ürün oluşturmak için gerekli çerçeveyi oluşturun.",
+        "Gerektiğinde ürün, tasarım ve dış mühendislik ekip arkadaşlarıyla işbirliği yapın."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "company": "Blogr",
+    "logo": "logos/blogr.svg",
+    "logoBackground": "hsl(12, 79%, 52%)",
+    "position": "Haskell and PureScript Dev",
+    "postedAt": "20s önce",
+    "contract": "Part Time",
+    "location": "Amerika Birleşik Devletleri",
+    "website": "https://example.com/blogr",
+    "apply": "https://example.com/blogr/apply",
+    "description": "Blogr, full-stack mühendislerden oluşan altı kişilik ekibimize katılacak yarı zamanlı bir geliştirici arıyor. Temel geliştirme değerlerimiz güçlü, statik yazım, doğruluk ve titiz otomasyon (hem test hem de altyapıda) ve herkesin söz sahibi olmasıdır.",
+    "requirements": {
+      "content": "Problem çözmeyi önemseyen ve en az 3 yıldır Purescript ve/veya Haskell ile ilişkisi olan (sadece biri olması gerekmiyor) harika geliştiricileri dikkatlice aramıza katmak istiyoruz.",
+      "items": [
+        "Kullanıcı arayüzü(UI) tasarımı konusunda yetenekli",
+        "Haskell veya Purescript bilgisine sahip olmak.",
+        "Otomatik test ve dağıtım konusunda deneyimli bir mühendis.",
+        "İşlevsel programlama ve etki alanı odaklı tasarım konusunda deneyimli veya sadece ilgili ve iş başında öğrenme yeteneğine sahip."
+      ]
+    },
+    "role": {
+      "content": "Bu rolde, Haskell uygulamaları için tarayıcı tabanlı kullanıcı arayüzleri oluşturmakla görevlendirileceksiniz daha çok frontend odaklı olacaktır.",
+      "items": [
+        "Haskell etrafında teknoloji yığınımızı oluşturun ve en iyi uygulamaları tanıtın",
+        "Diyalog motorumuzun ve onu destekleyen mimarinin tasarımına katkıda bulunun",
+        "Kullanıcılar, paydaşlar ve backend ekibi ile yakın çalışarak yeni kullanıcı arayüzleri tasarlayın.",
+        "Çözümlerin sağlamlığını, performansını ve ölçeklenebilirliğini en üst düzeye çıkarın"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "company": "Vector",
+    "logo": "logos/vector.svg",
+    "logoBackground": "hsl(235, 10%, 23%)",
+    "position": "Midlevel Back End Engineer",
+    "postedAt": "1g önce",
+    "contract": "Part Time",
+    "location": "Rusya",
+    "website": "https://example.com/vector",
+    "apply": "https://example.com/vector/apply",
+    "description": "Büyüyen yazılım mühendisliği organizasyonumuza katılacak orta seviye backend mühendisi arıyoruz. Doğru kişi, platformumuzu bir sonraki seviyeye taşımaya yardımcı olacaktır. Yüksek seviyede ziyaret edilen uygulamaları ortaklaşa tasarlamak ve uygulamalar için yetenekli, işbirlikçi bir ekibin parçası olarak çalışacaksınız.",
+    "requirements": {
+      "content": "İdeal adayımız, Ruby on Rails konusunda daha önce deneyimli ve profesyonel olarak gelişmeye açık, hevesli olmalıdır. Çevik bir ortamda rahat çalışırsınız ve diğer Yazılım Mühendisleri, Test Otomasyon Mühendisleri, Ürün Yöneticileri ve Tasarımcılarla ile birlikte işbirliği yapabilirsiniz. Hızlı tempolu bir ortamda başarılı olursunuz ve ekip ile uyum sağlayabilirsiniz.",
+      "items": [
+        "Müşterilerimize işlevsellik tasarlayan, kodlayan, test eden ve yayınlayan bir yazılım geliştirme ekibine aktif katılım",
+        "Otonom, çapraz fonksiyonlu bir ekibin değerli bir üyesi olmak için diğer mühendisler ve ürün yöneticileri ile yakın işbirliği",
+        "Ekibinizin sahip olduğu hizmetler için operasyonel sorumluluk, potansiyel olarak nöbetçi rotasyonunda yer almak da dahil"
+      ]
+    },
+    "role": {
+      "content": "Halihazırda birkaç yıllık yazılım mühendisliği deneyiminiz varsa ve işlerini tamamen sahiplenen, öğrenmeden ve kodlamadan geçen bir gün hayal edemeyen küçük, yoğun yetenekli bir ekibin parçası olmak istiyorsanız bu sizin için İDEAL bir iştir. Vector platformunda çok önemli bir rol oynayacaksınız ve yaptığınız her şey önemli olacak.",
+      "items": [
+        "Uygulamaları kullanıcı hikayelerine/gereksinimlerine ve sektördeki en iyi uygulamalara göre tasarlayın, kodlayın, dağıtın ve test edin.",
+        "Yazılım geliştirirken endüstri standardı yazılım yaşam döngüsü sürecini takip etmek",
+        "Diğer geliştiricilerle kod incelemesi yapın",
+        "Planların, teknik çözümlerin ve ilgili belgelerin geliştirilmesine ve eşdeğer değerlendirmesine yardımcı olun."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "company": "Office Lite",
+    "logo": "logos/officelite.svg",
+    "logoBackground": "hsl(227, 62%, 48%)",
+    "position": "Senior Application Engineer",
+    "postedAt": "2g önce",
+    "contract": "Full Time",
+    "location": "Japonya",
+    "website": "https://example.com/officelite",
+    "apply": "https://example.com/officelite/apply",
+    "description": "Office Lite, birincil sorumluluğu Office Lite sistemleri için yazılım mimarisi ve geliştirmede olan yetenekli ve hevesli bir Kıdemli Uygulama Mühendisi arıyor. Ek sorumluluklar arasında proje zaman/görev tahminine katılım, kod ve mimari incelemeleri, genç geliştiricilere destek sağlama, sistem mimarisinin dokümantasyonu ve geliştirme yaşam döngüsünün tüm aşamalarında destekleyici bir rol (proje tanımı, süreç haritalama, mimari, kodlama, kabul testi, kurulum, desteğe geçiş vb.)",
+    "requirements": {
+      "content": "Uygulamalı bir konu uzmanı olarak, teknik destek sağlamak ve müşteri gereksinimlerini heyecan verici yeni ürün özelliklerine dönüştürmeye yardımcı olmak için uzman düzeyinde mühendislik bilgisini kullanacaksınız. Yaygın simülasyon çözümleri oluşturmak, sektör bilginizi ilerletmek ve iş etkisini artırmak için çok disiplinli ekipler içinde çalışacaksınız.​",
+      "items": [
+        "Üretim ortamında uzman Node.js yetkinliği", 
+        "REST API'leri geliştirme konusunda yeterlilik", 
+        "İlişkisel veritabanları (MySQL) ve SQL sorgularını optimize etme konusunda uzmanlık", 
+        "Üretimde mikro hizmet tabanlı mimari ile kapsamlı deneyim", 
+        "CircleCI, Jenkins veya benzer CI/CD uygulamaları ile deneyim"
+      ]
+    },
+    "role": {
+      "content": "Sistem tasarımı, mimarisi, bakımı ve yeniden düzenleme kararlarına katılan beş ülkedeki Kıdemli Mühendislerden oluşan yetenekli bir ekiple birlikte çalışacaksınız. Yeni özellikler ve entegrasyonlar üzerinde çalışacak, kod incelemelerinde aktif olacak ve ekipler ve ürünler arasında mühendislik çabalarını koordine edeceksiniz.",
+      "items": [
+        "Yazılımın yönetilmesi ve yapılandırılması", 
+        "Fırsatları belirleyin ve proaktif ve öngörülebilir operasyonlar için bir izleme çözümünün uygulanmasına yardımcı olun.", 
+        "Uygulamalarla ilgili sorunları çözme - bilinen hataları ve sorun eğilimlerini belirleme ve kök neden analizi yoluyla kalıcı çözümler bulma.",
+        "Seviye 2 ve 3 uygulama desteğinin sağlanması."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "company": "Pod",
+    "logo": "/public/logos/pod.svg",
+    "logoBackground": "hsl(216, 46%, 14%)",
+    "position": "Remote DevOps Engineer",
+    "postedAt": "2g önce",
+    "contract": "Part Time",
+    "location": "Japonya",
+    "website": "https://example.com/pod",
+    "apply": "https://example.com/pod/apply",
+    "description": "Pod'un temel ürünlerini ve destekleyici altyapısını geliştiren dinamik ekibimize katılın. Yazılımımız şu anda Java, VB.Net, React Native, React JS ve diğer dillerde yazılmaktadır. Test, hazırlama ve dağıtım çözümlerini oluşturmak ve geliştirmek için yeni girişimlere liderlik etmeye yardımcı olacaksınız. Dev Ops Platformu için gereksinimleri ve hedefleri tanımlamak üzere tüm geliştirme ekipleri, geliştirme liderliği ve barındırma/IT personelimiz ile etkileşim kuracaksınız.",
+    "requirements": {
+      "content": "Hemen işe koyulabilecek ve ürünlerimizi bir üst seviyeye taşıyabilecek yetenekli ve motivasyonu yüksek mühendisler arıyoruz. Platformumuzu yığın boyunca inşa eden mühendisler, en yüksek kalitede yazılım ve müşteri deneyimleri sunmak için her zaman fazladan yol kat etmeye isteklidir. İdeal olarak, sahip olmanız gerekenler",
+      "items": [
+        "Lisans derecesi tercih edilir, Bilgisayar Bilimleri çalışma alanı için güçlü bir tercih", 
+        "En az 5 yıllık ilgili iş deneyimi", 
+        "AWS'de kaynakları yapılandırma ve bakımını yapma konusunda uygulamalı deneyim",
+        "ECS veya Kubernetes gibi konteyner düzenleme platformlarını dağıtma ve sürdürme konusunda deneyim ve sağlam bir anlayış",
+        "Ağ temelleri bilgisi",
+        "Bulut güvenliği konusunda uzmanlık, en az ayrıcalık ilkesini anlama",
+        "Güçlü yazılı ve sözlü iletişim becerileri"
+      ]
+    },
+    "role": {
+      "content": "Karmaşık, modern sistemleri otomatik olarak oluşturmak, test etmek, entegre etmek ve dağıtmak için Amazon Web Services (AWS), Ansible, Jenkins ve Kubernetes gibi teknolojileri kullanarak otomasyon çözümlerini uygulamak için geliştirme ekipleriyle yakın bir şekilde çalışacaksınız. Sıfır kesinti süresini destekleyen son derece esnek ve ölçeklenebilir uygulamaları yapılandırmak için bulutun tüm gücünden yararlanacaksınız. Bu pozisyon, deneyim ve geçmişe bağlı olarak orta ve üst düzey profesyonellere açıktır.",
+      "items": [
+        "AWS'de kaynakları yapılandırma ve bakımını yapma", 
+        "Terraform, CloudFormation ve/veya Ansible kullanarak altyapıyı kod olarak sürdürme", 
+        "Jenkins, CodeDeploy, GitHub Actions kullanarak üretim dağıtımlarından sorumludur", 
+        "Güvenlik gruplarını ve erişim kontrollerini yönetme", 
+        "İş önceliklerini yönetmek için Jira ve Confluence gibi bilet yönetim sistemlerini kullanma", 
+        "Karmaşık teknik fikirleri açıkça ifade etme ve DevOps dışındaki meslektaşlara iletme becerisi"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "company": "Creative",
+    "logo": "logos/creative.svg",
+    "logoBackground": "hsl(295, 55%, 21%)",
+    "position": "Desktop Support Manager",
+    "postedAt": "4g önce",
+    "contract": "Part Time",
+    "location": "Almanya",
+    "website": "https://example.com/creative",
+    "apply": "https://example.com/creative/apply",
+    "description": "Creative, dinamik bir ortamda yüksek performanslı bir ekibi yönetmek ve liderlik etmekten sorumlu bir Masaüstü Destek Yöneticisi arıyoruz. İdeal aday, yönetim deneyimine, güçlü teknik becerilere, olağanüstü müşteri hizmetleri becerilerine sahip olmalı ve bir ekibe mentorluk yapmaktan keyif almalıdır.",
+    "requirements": {
+      "content": "Bu pozisyon, uygulamalarımızın bilgi teknolojisi gereksinimlerini desteklerken ortaya çıkan çok sayıda ve sıklıkla değişen günlük sorunlarla ilgilenmeyi içerdiğinden, muhtemelen son kullanıcı desteği ve sorun giderme konusunda sağlam bir geçmişe sahip birisiniz.",
+      "items": [
+        "BT veya ilgili alanda lisans derecesi",
+        "Son kullanıcıları destekleyen güçlü teknik beceriler sergileyen 5+ yıl",
+        "Liderlik kapasitesinde 3+ yıl (Ekip Lideri, Süpervizör veya Yönetici)",
+        "ConnectWise, Autotask, ServiceNow vb. gibi Profesyonel Hizmetler Otomasyonu (PSA) araçlarını veya biletleme platformlarını kullanma deneyimi.",
+        "Mükemmel kişilerarası/iletişim becerilerine sahip olmak ve göstermek"
+      ]
+    },
+    "role": {
+      "content": "Bu, otomasyon teknolojilerinin desteklenmesinden ve 7x24 yüksek hacimli bir ortamda destek mühendislerinden oluşan bir ekibin yönetilmesinden sorumlu olacağınız %80 yönetim ve %20 uygulamalı denetim rolüdür",
+      "items": [
+        "Müşteri hizmetlerini ve verimliliği artırmak için hizmet masası ekiplerine günlük olarak liderlik etmek, koçluk yapmak ve yönetmek",
+        "Olağanüstü 'beyaz eldiven' hizmeti ve teslimatı sağlamak için en iyi uygulamaları uygulamak ve hizmet masası süreçlerini standartlaştırmak",
+        "Açık biletlerin ve görevlerin önceliklendirilmesine yardımcı olmak için ekip tarafından gerçekleştirilen çalışmaları denetlemek",
+        "Teknik konularda rehberlik ve yönlendirme sağlamak",
+        "Ekip performansını ölçmek ve müşteri deneyimini iyileştirmek için KPI'lar geliştirmek ve sürdürmek",
+        "Yönetime durum raporları sunmak ve yeni girişimler ve teknik planlama konusunda işbirliği yapmak"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "company": "Pomodoro",
+    "logo": "logos/pomodoro.svg",
+    "logoBackground": "hsl(254, 71%, 45%)",
+    "position": "iOS Engineer",
+    "postedAt": "1hf önce",
+    "contract": "Full Time",
+    "location": "Amerika Birleşik Devletleri",
+    "website": "https://example.com/pomodoro",
+    "apply": "https://example.com/pomodoro/apply",
+    "description": "Ekibimize katılacak düşünceli, çok yönlü iOS mühendisi arıyoruz. Uygulamanın ve altyapının temelini oluşturmaya yardımcı olacak birini arıyoruz. Her gün milyonlarca insanın üretkenliğini artırmak için kullandığı bir uygulamanın inşasında yer almakla ilgileniyorsanız, bu mükemmel bir fırsat. Mobil mühendislik uygulamamızda önemli bir rol oynayacak, yeni özellikler uygulayacak, performansı artıracak ve güzel kullanıcı arayüzleri oluşturacaksınız.",
+    "requirements": {
+      "content": "Pomodoro'yu piyasadaki en iyi mobil deneyimlerden biri haline getirmek isteyen deneyimli bir mobil mühendis arıyoruz. Müşteri odaklı ürün geliştirmede başarılı olan, uygulama mimarisi ve tasarımı üzerinde çalışma ve sorunsuz, keyifli deneyimler yaratma tutkusuna sahip biriyseniz, kaliteyi çok önemsiyor, ortaklık ve işbirliğinden enerji alıyor ve çevrenizdekilerin mükemmelleşmesini sağlamak için çabalıyorsanız ne duruyorsunuz.",
+      "items": [
+        "Objective-C ve/veya Swift'te güçlü programlama becerileri",
+        "IOS üzerinde mobil uygulama geliştirme deneyimi",
+        "Ürün yönetimi, tasarım ve mühendislik dahil olmak üzere çeşitli ekiplerle yakın çalışma deneyimi",
+        "Yaygın veri yapıları ve algoritmalar, profil oluşturma ve optimizasyon gibi temel CS kavramları hakkında bilgi"
+      ]
+    },
+    "role": {
+      "content": "Mühendislik hızımızı iki katına çıkarmamıza yardımcı olmak için altyapı ve soyutlamalar oluşturmaktan sorumlu olacaksınız.  Yığının tüm katmanlarında ve mühendislik, veri bilimi, araştırma, ürün ve tasarım alanlarındaki ortaklarla yakın bir şekilde çalışacaksınız. Kod tabanımızın sürekli gelişen geliştirme ekosisteminin eğrisinin önünde kalmasına yardımcı olacaksınız.",
+      "items": [
+        "Özellik geliştirmeyi daha hızlı hale getiren, tasarımlarda tutarlılık ve erişilebilirlik sağlayan UI bileşenleri tasarlayın ve geliştirin",
+        "Ürün geliştirmeyi daha hızlı, daha güvenli ve daha tutarlı hale getirmek için çerçeveler ve altyapılar oluşturun",
+        "Mobil uygulamanın performansını ve kararlılığını artırın",
+        "Mobil kod tabanını güvenli tutmaya çalışın"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "company": "Maker",
+    "logo": "logos/maker.svg",
+    "logoBackground": "hsl(218, 58%, 31%)",
+    "position": "Senior EJB Developer",
+    "postedAt": "1hf önce",
+    "contract": "Full Time",
+    "location": "Birleşik Krallık",
+    "website": "https://example.com/maker",
+    "apply": "https://example.com/maker/apply",
+    "description": "Hızla büyüyen mühendislik ekibimize katılacak, görev açısından kritik uygulamalar üzerinde çalışacak deneyimli bir EJB Geliştiricisi arıyoruz. Sofistike çözüm tasarımı gerektiren benzersiz iş zorluklarına sahip birden fazla sektördeki kuruluşlarla çalışmaktan heyecan duyan bir Kıdemli Java Geliştiricisi arıyoruz.",
+    "requirements": {
+      "content": "Aday, J2EE/EJB sistemlerinin tasarlanması ve oluşturulmasının tüm yönlerinde iş deneyimine sahip olmalı ve sistem gereksinimlerini ve tasarım özelliklerini geliştirmeli ve yeni ve mevcut uygulamalar için J2EE/EJB Kodlaması yapmalıdır.",
+      "items": [
+        "Bilgisayar Bilimleri derecesi veya eşdeğeri",
+        "EJB, J2EE, Tomcat, JBoss ve MySQL, MSSQL, Oracle gibi ilişkisel veritabanları ile deneyim",
+        "En az üç yıllık lisansüstü deneyim",
+        "OO programlama prensiplerinin derinlemesine anlaşılması ve temiz, verimli, iyi belgelenmiş koda bağlılık."
+      ]
+    },
+    "role": {
+      "content": "İş sorumlulukları arasında ölçeklenebilir Java uygulamaları geliştirmek ve konsept ve tasarımdan teste kadar tüm yazılım geliştirme yaşam döngüsünde uzmanlık sağlamak yer alacaktır.",
+      "items": [
+        "Maker'ın temel platformunu geliştiren yüksek hacimli, düşük gecikmeli uygulamalar tasarlayın ve geliştirin",
+        "İyi tasarlanmış, test edilebilir, verimli kod oluşturma",
+        "Geliştirme yaşam döngüsünün tüm aşamalarına katılın",
+        "Sürekli iyileştirmeyi desteklemek için alternatifleri ve teknolojileri araştırmak ve bunları mimari incelemeye sunmak"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "company": "Coffeeroasters",
+    "logo": "logos/coffeeroasters.svg",
+    "logoBackground": "hsl(29, 60%, 87%)",
+    "position": "Senior Frontend Developer",
+    "postedAt": "1hf önce",
+    "contract": "Part Time",
+    "location": "Singapur",
+    "website": "https://example.com/coffeeroasters",
+    "apply": "https://example.com/coffeeroasters/apply",
+    "description": "Ürün Tasarımı konusunda bilgili, kodlama becerilerine sahip ve teknoloji konusundaki değerlerimizi paylaşan deneyimli bir Frontend Developer arıyoruz. En önemlisi, işbirlikçi ve ürünü şekillendiren ekibimizin geri kalanıyla yakın çalışabilecek birini istiyoruz.",
+    "requirements": {
+      "content": "Müşteriler için yüksek kaliteli çözümler yürütmekten ve bir teslimat ekibinin günlük teknik mükemmelliğine katkıda bulunmaktan sorumlu olacaksınız. Modern JavaScript, HTML ve CSS, yazılım geliştirme yaşam döngüsü hakkında derin bir anlayışa sahip olmalı ve standart yazılım mimarisi modellerini uygulama ve yürütme becerisine sahip olmalısınız.",
+      "items": [
+        "4+ yıllık Frontend Geliştirme deneyimi", 
+        "React'ta uzmanlık gerekli", 
+        "Tercihen Next.js, Apollo, Typescript ve GraphQL uzmanlığa sahip adaylar tercih edilir"
+      ]
+    },
+    "role": {
+      "content": "Heyecan verici bir uygulama oluşturmak için ekibimizle yakın çalışmanın ötesinde, React/Next.js ürünümüzün Ön Uç geliştirmesine liderlik edeceksiniz. Uygulama için UI/UX geliştirecek ve ön uç için mimari kararlar alacaksınız.",
+      "items": [
+        "React kullanarak masaüstü ve mobil tarayıcılar için karmaşık kullanıcı etkileşimlerini tasarlamak için temel istemci tarafı teknolojilerine ilişkin kapsamlı anlayışınızı kullanın", 
+        "Hem istemci hem de sunucuda kullanılmak üzere evrensel JS modülleri oluşturma", 
+        "Daha genç ekip üyelerine liderlik etmek, yönlendirmek ve mentorluk yapmak (kod incelemesi dahil)", 
+        "Kodunuzu Jest ve Mocha ile yazılmış birim ve entegrasyon testleri ile kaplayın", 
+        "Frontend ekibinin önemli mimari seçimleriyle ilgili karar verme sürecinde yer almak"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "company": "Mastercraft",
+    "logo": "logos/mastercraft.svg",
+    "logoBackground": "hsl(0, 0%, 12%)",
+    "position": "App & Website Designer",
+    "postedAt": "2hf önce",
+    "contract": "Freelance",
+    "location": "Amerika Birleşik Devletleri",
+    "website": "https://example.com/mastercraft",
+    "apply": "https://example.com/mastercraft/apply",
+    "description": "Mastercraft, yazılımımızı müşterilerimiz için kullanımı kolay ürünlere dönüştürecek bir UX/UI Tasarımcısı arıyor. Sorumluluklar arasında kullanıcı gereksinimlerini toplama, grafik öğeleri tasarlama ve yazılım bileşeni oluşturma yer almaktadır.",
+    "requirements": {
+      "content": "Bu rolde başarılı olmak için, tercihen Figma olmak üzere tasarım yazılımı ve wireframe araçları konusunda deneyim sahibi olmalısınız. Ayrıca web/mobil uygulamalarla çalışmayı içeren profesyonel tasarım projelerinden oluşan bir portföye sahip olmalısınız.",
+      "items": [
+        "İlgili bir alanda en az 3 yıl deneyim.", 
+        "Tasarım projeleri portföyü.",
+        "Tasarım, UX veya ilgili alanda derece.",
+        "Tasarım süreci ve organizasyona sistematik yaklaşım, iş akışı konusunda deneyim"
+      ]
+    },
+    "role": {
+      "content": "Müşterilerimizin ihtiyaçlarını karşılayan ve müşteri tabanımızı büyütmemize yardımcı olan hem işlevsel hem de çekici özellikler yaratacaksınız. Pazar/kullanıcı araştırması konusunda deneyim sahibi olmanızı ve en son trendler, araçlar, iş akışları konusunda güncel kalmanızı bekliyoruz.",
+      "items": [
+        "UX/UI yöneticisi veya paydaşlarla işbirliği içinde kullanıcı gereksinimlerini toplamak ve değerlendirmek.", 
+        "Tasarım fikirlerini hikaye panoları, süreç akışları ve site haritaları kullanarak gösterin.", 
+        "Sitelerin nasıl çalıştığını ve nasıl göründüğünü açıkça gösteren kullanıcı arayüzü maketleri ve prototipleri geliştirin.", 
+        "Özgün grafik tasarımlar oluşturun (örn. resimler, eskizler ve tablolar).", 
+        "UX sorunlarını belirleme ve giderme",
+        "Kullanıcı geri bildirimlerine göre düzen ayarlamaları yapın."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "company": "Crowdfund",
+    "logo": "logos/crowdfund.svg",
+    "logoBackground": "hsl(157, 57%, 50%)",
+    "position": "Fullstack Developer",
+    "postedAt": "1ay önce",
+    "contract": "Part Time",
+    "location": "Yeni Zelanda",
+    "website": "https://example.com/crowdfund",
+    "apply": "https://example.com/crowdfund/apply",
+    "description": "Crowdfund şu anda genişliyor ve yaratıcı, girişimci veya amaca yönelik herhangi bir proje için fon toplama dünyasında devrim yaratmaya çalışıyor. Gelin ve bu büyümede bize katılın! Şirketin heyecan verici yeni bölümünün ayrılmaz bir parçası olacak son derece yetenekli bir Fullstack Geliştirici arıyoruz.",
+    "requirements": {
+      "content": "İşinizi sahipleniyorsanız ve oluşturduğunuz ürünleri sürekli olarak geliştirmek istiyorsanız sizi aramızda görmek isteriz. Düz bir girişimde çapraz işlevsellikte çok iyi çalışma konusunda esrarengiz bir yeteneğe sahip geliştiriciler arıyoruz.",
+      "items": [
+        "4+ yıllık web geliştirme deneyimi",
+        "Güçlü CS temelleri ve problem çözme becerileri",
+        "Ruby on Rails [tercih edilir], Python, PHP, Java veya en sevdiğiniz modern yığın ile üretim uzmanlığı",
+        "Mükemmel hata ayıklama becerileri ve otomatik test ve kapsamaya olan güçlü inanç",
+        "Mentorluktan ve çevik ortamlardan hoşlanan takım oyuncusu",
+        "Tutku, azim, enerji, mizah duygusu ve harika bir tutum!"
+      ]
+    },
+    "role": {
+      "content": "Crowdfund'da, tüketici platformumuzu daha da sağlam hale getirmek için yeni özellikler geliştirerek dünyayı ve insanların hayatlarını tam anlamıyla değiştirme fırsatına sahip olacaksınız. Sıra dışı geliştiricilerle birlikte çalışacaksınız ve yoğun işlem hacmi, ölçeklenebilirlik ve Büyük Veri ile ilgili projeler de dahil olmak üzere üstesinden gelinmesi gereken birçok ilginç teknik zorluk var.",
+      "items": [
+        "İnsanları hayallerinin peşinden gitmeleri için güçlendiren bir pazar yeri oluşturun!",
+        "Güzel, performanslı ve ölçeklenebilir Ruby kodunun mimarı, tasarımı ve uygulaması.",
+        "Günde milyonlarca işlemin gerçekleştiği uluslararası ödeme sistemi için özellikler oluşturun.",
+        "Platform API'lerimizin erişimini genişletin."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "company": "Typemaster",
+    "logo": "logos/typemaster.svg",
+    "logoBackground": "hsl(22, 89%, 52%)",
+    "position": "Technical Lead Engineer",
+    "postedAt": "1ay önce",
+    "contract": "Part Time",
+    "location": "Birleşik Krallık",
+    "website": "https://example.com/typemaster",
+    "apply": "https://example.com/typemaster/apply",
+    "description": "Büyük ölçekli, yüksek performanslı web uygulamaları oluşturan bir ekibe katılacak yetenekli bir teknik lider arıyoruz. Bu ekip, milyonlarca insan tarafından kullanılan yüksek görünürlüklü ve duyarlı kullanıcı arayüzleri oluşturuyor.",
+    "requirements": {
+      "content": "İşimiz sadece kodla ilgili değil: kullanıcı deneyimini ve çalışmalarının kullanıcıları nasıl etkilediğini derinden önemseyen bir teknoloji lideri arıyoruz. İdeal bir aday, hem Django hem de yığınımız olan React/Redux ile deneyim dahil olmak üzere tam yığın yazılım mühendisi olarak kapsamlı deneyime sahiptir. Bu rol, hem mühendis hem de teknik ürün sahibi olarak büyümek isteyen deneyimli bir tam yığın geliştirici için mükemmeldir. Öğrenmek için inisiyatif alan, özenli kod incelemesinden hoşlanan ve en iyi kalıpları ve uygulamaları geliştirmek için diğer yazılım mühendisleriyle işbirliği geçmişi olan birini istiyoruz.",
+      "items": [
+        "Uygulamaların altyapı mühendisliğinde 5-7 yıllık deneyim",
+        "Web uygulaması güvenlik analizi ve çözümü konusunda deneyim.",
+        "Modern Javascript iş akışı içinde aşağıdaki gibi teknolojiler aracılığıyla çalışma deneyimi: GitHub, CSS Preprocessors, Styled Components, Single Page Application frameworks ve Module Bundlers (Webpack vb.)",
+        "A/B Testleri uygulama deneyimi",
+        "Bir üretim uygulamasında React/Redux ile uygulamalı deneyim"
+      ]
+    },
+    "role": {
+      "content": "İşte rolünüz: Typemaster'ın büyüyen geliştirme ekibinde teknoloji lideri olarak kod yazmak, yeni sistemler tasarlamak, genç mühendislere mentorluk yapmak ve ürünü yönetmek. Temiz kod, kapsamlı testler, hızlı yineleme ve masaya getirdiğiniz değerleri içeren bir kültürde Typemaster'ın iki teknik kurucu ortağı ve diğer mühendislerle doğrudan çalışacaksınız. Ürün gruplarımızdan birine sahip olacak ve birden fazla projeye katkıda bulunabileceksiniz.",
+      "items": [
+        "Ticaret/işlem akışlarına vurgu yaparak web uygulamasının güvenlik denetimi",
+        "Teknoloji konferanslarına ve daha geniş teknoloji topluluğu forumlarına katılmak da dahil olmak üzere mesleki gelişim yoluyla güvenlik becerilerini, bilgilerini ve eğitimlerini sürdürmek ve geliştirmek",
+        "React ve Django dahil olmak üzere modern bir yığın üzerinde çalışın.",
+        "Birim testleri ve otomatik testler aracılığıyla test odaklı geliştirme yoluyla kod kalitesini uygulayın."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "company": "Crowdfund",
+    "logo": "logos/crowdfund.svg",
+    "logoBackground": "hsl(157, 57%, 50%)",
+    "position": "Front-end Developer",
+    "postedAt": "1ay önce",
+    "contract": "Full Time",
+    "location": "Yeni Zelanda",
+    "website": "https://example.com/crowdfund",
+    "apply": "https://example.com/crowdfund/apply",
+    "description": "Crowdfund'un yönetim arayüzü için ön uç deneyimi oluşturmaya yardımcı olacak bir Ön Uç Geliştirici arıyoruz. İdeal adayımız olarak, ön uç yığınının (React, Yarn, webpack, Babel, SCSS, JSX, GraphQL) usta bir kullanıcısı ve yeni çerçevelerin hevesli bir öğrenicisisiniz. Mükemmel kullanıcı deneyimlerinin yanı sıra diğer geliştiricilerin benzer sorunları çözmek için kullanabileceği yeniden kullanılabilir bileşenler oluşturmaktan hoşlanıyorsunuz. Açık kaynağı ve gelişen bir geliştirici topluluğunun parçası olmayı seviyorsunuz ve güçlü işletmelerin büyük kalıcı topluluklar sağladığını anlıyorsunuz.",
+    "requirements": {
+      "content": "Orta düzey bir geliştirici olarak, JavaScript, CSS ve HTML'yi tam olarak anlamanızı ve büyük ölçekte tek sayfalık uygulamalar oluşturma ve dağıtma konusunda kanıtlanmış deneyime sahip olmanızı bekliyoruz. Modern JavaScript uygulama çerçeveleriyle ilgili deneyiminiz olması şart, ancak çerçevelerin dışında düşünme becerisine de sahip olmanız gerekiyor.",
+      "items": [
+        "Bir yıldan fazla React deneyimi",
+        "Detaylar için iyi bir göz",
+        "Mükemmel kullanıcı deneyimi ve API tasarımı tutkusu",
+        "Çapraz fonksiyonel ve kültürler arası ekiplerle rahat çalışma"
+      ]
+    },
+    "role": {
+      "content": "Sizin ve meslektaşlarınızın seveceği uygulamalar geliştirme konusunda tutkulu insanlar istiyoruz. Karmaşık uygulamaları müşterilerimiz için basit hale getirme tutkumuzu paylaşan deneyimli bir Front-end Developer arıyoruz. Size en iyi yaptığınız şeyi yapma özgürlüğü vereceğiz, bu nedenle işinizi baştan sona sahiplenmenin yanı sıra ürünlerimizi, geliştirme deneyimimizi ve ekibimizi daha iyi hale getirebilecek yeni fikirler getirme konusunda kendinizi rahat hissetmelisiniz. Fikirleri gerçeğe dönüştürmek için tasarımcılar, ürün yöneticileri ve diğer mühendislerle yakın çalışma fırsatına sahip olacaksınız.",
+      "items": [
+        "React/Typescript/GraphQL yığınımızı oluşturmak için ekibimizle birlikte çalışmak",
+        "Dönüşümleri artırmak ve kullanıcı deneyimini iyileştirmek için ürün ve tasarım ile işbirliği yapmak",
+        "Genel ve dahili API'lerle arayüz oluşturacak yeni, verimli ve ölçeklenebilir ön uç uygulamaları oluşturmak",
+        "Temiz, bakımı yapılabilir ve test edilebilir kod yazma",
+        "Karmaşık sorunları çözmek için arka uç ekipleriyle birlikte çalışın"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "company": "Coffeeroasters",
+    "logo": "logos/coffeeroasters.svg",
+    "logoBackground": "hsl(29, 60%, 87%)",
+    "position": "Junior Full-Stack Developer",
+    "postedAt": "1ay önce",
+    "contract": "Full Time",
+    "location": "Singapur",
+    "website": "https://example.com/coffeeroasters",
+    "apply": "https://example.com/coffeeroasters/apply",
+    "description": "Ürün ve Mühendislik ekibimize katılacak bir Junior Full-Stack Developer arıyoruz. Bu, temel web uygulamamızın oluşturulması üzerinde çalışmanız için heyecan verici bir fırsat.",
+    "requirements": {
+      "content": "Bu iş pozisyonu yeni nesil uygulamaların ve API'lerin geliştirilmesine yardımcı olacak giriş seviyesi bir full-stack geliştirici aramak içindir. Coffeeroasters'ın teknoloji çabalarını iş bilgisi ihtiyaçlarıyla uyumlu hale getirmesini sağlayan hizmetler sunarak çevik ekiplere katkıda bulunacaksınız. Amaç, genç bir full-stack geliştiriciyi, her türlü zorlu fırsatı üstlenmeye hazır, çok yönlü bir API geliştiricisi haline getirmektir.",
+      "items": [
+        "Bilgisayar Bilimleri veya eşdeğer bir mühendislik bölümünden mezun olmak.",
+        "Python ve/veya JavaScript deneyimi.",
+        "Hızlı tempolu bir startup'ta başarılı olma becerisi.",
+        "Öğrenmeyi seven ve başkalarına yardım etme konusunda tutkulu biri."
+      ]
+    },
+    "role": {
+      "content": "Karmaşık iş kurallarını/akışlarını destekleyen iyi tasarlanmış, performanslı ve etkili frontend web uygulamaları oluşturmaya yabancı olmayan dinamik bir birey arıyoruz. Mevcut ekibimizin deneyimlerinden ve mevcut tekliflerimizden öğrenerek işe başlayacak ve kod tabanımızı yakından tanıyacaksınız. Web geliştirme için en iyi uygulamaları oluşturmak ve ekibi ve kod tabanını daha yüksek bir seviyeye taşımak için deneyiminizden yararlanacaksınız.",
+      "items": [
+        "Yeni özellikleri uygulamak için frontend kodu yazın ve kullanıcı arayüzü oluşturun. API'mizden veri almayı, bu verileri yapılandırmayı ve görüntülemeyi içerir.",
+        "API için backend kodu oluşturun.",
+        "Platformumuzu sürekli olarak geliştirerek özellikleri yüksek güvenilirlik ve ölçeklenebilirlikle hızlı bir şekilde sunabiliyoruz.",
+        "Kullanıcı ihtiyaçlarını ve iş gereksinimlerini ilgi çekici ve kullanıcı merkezli tasarıma dönüştürmek için kullanıcı deneyimi metodolojisini ve en iyi uygulamaları uygulayın.",
+        "Müşteri ve diğer ekip üyeleri için dokümantasyon yazmak/ sürdürmek."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "company": "Blogr",
+    "logo": "logos/blogr.svg",
+    "logoBackground": "hsl(12, 79%, 52%)",
+    "position": "Midweight FrontEnd Developer",
+    "postedAt": "1ay önce",
+    "contract": "Full Time",
+    "location": "Amerika Birleşik Devletleri",
+    "website": "https://example.com/blogr",
+    "apply": "https://example.com/blogr/apply",
+    "description": "Kullanıcı deneyimine, performansa ve erişilebilirliğe değer veren bir Frontend Developer arıyoruz. İnsanların ürünlerimizi nasıl kullandığına duyduğumuz sürekli ilgi sayesinde Blogr, yinelemeli ve aşamalı bir yazılım geliştirme modelini benimser. Yüksek performanslı motorlar gibi, ürünlerimiz de sürekli bir iyileştirme süreciyle (genellikle iki haftalık sürüm döngüleriyle) inşa edilir. Bu yaklaşımı rahatlıkla benimseyebilecek birini arıyoruz.",
+    "requirements": {
+      "content": "Kendi birim testlerinizi yazarken kodunuzu yazmaktan ve hata ayıklamaktan sorumlu olacaksınız. Öğrenmeye ilgi duyan, aç ve yeni teknolojileri hızla öğrenebilen, kendi kendini motive eden geliştiriciler arıyoruz. İstikrarlı ancak hızlı büyüyen bir şirkette nispeten küçük bir ekibiz ve bize katılmanızı çok istiyoruz.",
+      "items": [
+        "Tercihen JavaScript ürünü geliştiren bir yazılım şirketinde deneyimli.",
+        "React ve durum yönetimi kütüphanelerini  (Redux veya Mobx gibi) kullanmakta deneyimli.",
+        "Çapraz tarayıcı uyumluluğu sorunlarını ve bunların üstesinden gelmenin yollarını anlayabilen.",
+        "Akıcı İngilizce, mükemmel iletişim becerileri olan adaylar."
+      ]
+    },
+    "role": {
+      "content": "Bu rolde, Frontend & Backend Geliştiricileri, UX & UI Uzmanları ve Ürün Sahiplerinden oluşan Ürün ekibimizin bir parçası olacaksınız. İlk günden itibaren kritik projeler üzerinde çalışacak, diğer mühendisleri destekleyecek, bilginizi iş arkadaşlarınızla paylaşacak ve çevik projelere katkıda bulunacaksınız.",
+      "items": [
+        "Yazılım mühendisliği kültürümüzün tanımlanmasına yardımcı olun",
+        "Frontend için yüksek kaliteli kodlar yazın",
+        "Kod incelemeleri yapın",
+        "İşiniz için en önemli sorunları proaktif olarak çözün"
+      ]
+    }
+  }
+]
